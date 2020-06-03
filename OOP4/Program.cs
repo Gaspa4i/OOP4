@@ -36,7 +36,7 @@ namespace OOP4
             set
             {
                 if (value < 1940) bookEdition = 1940;
-                else if (value < 2020) bookEdition = 2020;
+                else if (value > 2020) bookEdition = 2020;
                 else bookEdition = value;
             }
         }

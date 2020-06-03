@@ -21,6 +21,7 @@ namespace OOP4
                 if (value < 31) temperature = 31;
                 else if (value > 41) temperature = 41;
                 else temperature = value;
+
             }
         }
     }
